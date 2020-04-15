@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    @keyframes fade {
+             
+                  0%,100%{
+                      opacity: 0;
+                  }
+                  50%{
+                      opacity: 1;
+                    }
+    }
+    div{
+        height:50px;
+        width:300px;
+        border: 1px solid black;
+        border-left:none;
+        border-right:none;
+        top:30%;
+        left:20%;
+        position: absolute;
+        animation: fade  3s ease-in-out infinite alternate;
+    }
+</style>
+<body>
+    <div>
+        <p>Its animation dude</p>
+    </div>
+</body>
+</html>

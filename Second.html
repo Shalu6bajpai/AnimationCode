@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @keyframes changeshape{
+            0%{
+                transform: translateY(0%);
+            }
+            30%{
+                transform: translateY(50%);
+            }
+            50%{
+                transform: translateY(30%);
+            }
+            100%{
+                transform: translateY(20%);
+            }
+        }
+    div{
+        height:200px;
+        width:200px;
+        position:absolute;
+        left:20%;
+        top:20%;
+        background-color: brown;
+        animation: changeshape 1s ease 4 alternate;
+
+    }
+
+    </style>
+</head>
+
+<body>
+    <div>
+
+    </div>
+</body>
+</html>
